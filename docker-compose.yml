@@ -1,7 +1,7 @@
-nginx-resizer-small-light:
+docker-nginx-imageresizer:
   build: .
   ports:
-    - "8899:80"
-    - "2424:22"
+    - "8888:80"
+    - "2222:22"
   volumes:
-    - ~/www/nginx-resizer/www:/var/www/html/img.purch.com
+    - ./www:/var/www/html/img.purch.com

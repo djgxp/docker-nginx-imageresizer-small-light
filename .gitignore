@@ -1,2 +1,4 @@
 .idea
 ssh_keys
+.DS_Store
+composer.lock
